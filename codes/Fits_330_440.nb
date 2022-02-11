@@ -1,0 +1,125 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4132,        115]
+NotebookOptionsPosition[      3257,         92]
+NotebookOutlinePosition[      3653,        108]
+CellTagsIndexPosition[      3610,        105]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Fits to amplitude ratio almn/a220", "Section",
+ CellChangeTimes->{{3.8535666613832293`*^9, 
+  3.8535666918089943`*^9}},ExpressionUUID->"24618919-d748-4773-a08c-\
+c6e732b74c10"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"a330", "[", "qq_", "]"}], ":=", 
+  RowBox[{"0.4367931773176181", "\[VeryThinSpace]", "+", 
+   FractionBox["0.005824901860357143", 
+    SuperscriptBox["qq", "3"]], "+", 
+   FractionBox["0.14604066055320677", 
+    SuperscriptBox["qq", "2"]], "-", 
+   FractionBox["0.588658739731182", "qq"]}]}]], "Code",
+ CellChangeTimes->{{3.853545346834857*^9, 3.853545371019536*^9}, {
+  3.8535454489680357`*^9, 3.853545456392473*^9}, {3.853554212945833*^9, 
+  3.853554245394226*^9}},
+ CellLabel->
+  "In[242]:=",ExpressionUUID->"6a693a64-94ce-4164-b6bf-ca6d15de6dbe"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"a440", "[", "qq_", "]"}], ":=", 
+  RowBox[{"0.23178137909392973`", "\[VeryThinSpace]", "-", 
+   FractionBox["0.39704597086871857`", 
+    SuperscriptBox["qq", "3"]], "+", 
+   FractionBox["1.0221156383331502`", 
+    SuperscriptBox["qq", "2"]], "-", 
+   FractionBox["0.79311210847311`", "qq"]}]}]], "Code",
+ CellChangeTimes->{{3.853545346834857*^9, 3.853545371019536*^9}, {
+  3.8535454489680357`*^9, 3.853545456392473*^9}, {3.853554212945833*^9, 
+  3.853554245394226*^9}, {3.853574171453212*^9, 3.853574178361505*^9}},
+ CellLabel->
+  "In[241]:=",ExpressionUUID->"4d37c5dc-a970-4258-a425-102de4e336b8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fits to phase difference phi220 - philmn", "Section",
+ CellChangeTimes->{{3.8535666613832293`*^9, 
+  3.8535667059618196`*^9}},ExpressionUUID->"d0fb6f01-5323-4644-ac17-\
+ae6adac40950"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[Delta]\[Phi]330", "[", "qq_", "]"}], ":=", 
+  RowBox[{"2.710963898773419`", "\[VeryThinSpace]", "+", 
+   FractionBox["4.260371437355027`", 
+    RowBox[{"3.1475706748633727`", "\[VeryThinSpace]", "+", 
+     SuperscriptBox["qq", "2"]}]]}]}]], "Code",
+ CellChangeTimes->{{3.853545346834857*^9, 3.853545371019536*^9}, {
+   3.8535454489680357`*^9, 3.853545456392473*^9}, {3.853554212945833*^9, 
+   3.853554245394226*^9}, {3.853574651804656*^9, 3.8535746552229424`*^9}, 
+   3.8535748112511272`*^9},
+ CellLabel->
+  "In[368]:=",ExpressionUUID->"af03fec7-8220-4c3d-9d1d-145abd714198"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[Delta]\[Phi]330", "[", "qq_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{"-", "1.0721731125691618"}], "+", 
+   FractionBox["8.702999065327244", 
+    RowBox[{"1.0896656954028114", "+", 
+     SuperscriptBox["qq", "2"]}]]}]}]], "Code",
+ CellChangeTimes->{{3.853574646575328*^9, 3.853574676271319*^9}},
+ CellLabel->
+  "In[321]:=",ExpressionUUID->"210d2976-52f5-49a6-acb8-d915c39be3f6"]
+}, Open  ]]
+},
+WindowSize->{Full, Full},
+WindowMargins->{{556, Automatic}, {Automatic, 50}},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 19, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"56ec1c27-93af-4d10-96d8-e4c8de09ffdd"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 182, 3, 67, "Section",ExpressionUUID->"24618919-d748-4773-a08c-c6e732b74c10"],
+Cell[765, 27, 585, 13, 71, "Code",ExpressionUUID->"6a693a64-94ce-4164-b6bf-ca6d15de6dbe"],
+Cell[1353, 42, 633, 13, 72, "Code",ExpressionUUID->"4d37c5dc-a970-4258-a425-102de4e336b8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2023, 60, 189, 3, 67, "Section",ExpressionUUID->"d0fb6f01-5323-4644-ac17-ae6adac40950"],
+Cell[2215, 65, 612, 12, 72, "Code",ExpressionUUID->"af03fec7-8220-4c3d-9d1d-145abd714198"],
+Cell[2830, 79, 411, 10, 71, "Code",ExpressionUUID->"210d2976-52f5-49a6-acb8-d915c39be3f6"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
